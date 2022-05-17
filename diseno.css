@@ -1,0 +1,162 @@
+
+
+html{
+    background: #E5E5E5;   
+    margin:20px;
+}
+
+
+.logo{
+    position: absolute;
+   
+}
+
+.rectangulo{
+    position: absolute;
+    width: 300px;
+    height: 590px;
+    right: 20px;
+    border-radius: 35px;
+    
+}
+
+#muneco{
+    position: absolute;
+    width: 240px;
+    right: 50px;
+    margin-top: 100px;
+}
+
+#ingreseTexto{
+    position: absolute;
+    background: #E5E5E5;
+    color: #0A3871;
+    resize: none;
+    left: 240px;
+    top: 100px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+}
+
+
+::placeholder{
+    color: #0A3871;
+    font-style: normal;
+    border: none;
+}
+
+:focus{
+    border: none;
+}
+
+
+#ningunMensaje{
+    position: absolute;
+    width: 252px;
+    height: 55px;
+    right: 42px;
+    top: 57%;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+    resize: none;
+    text-align: center;
+    border: none;
+    color: #343A40;
+}
+
+#descriptarEncriptar{
+    position:absolute;
+    width: 252px;
+    height: 55px;
+    left: 1070px;
+    top: 68%;
+    font-size: 16px;
+    margin-top: 10px;
+    resize: none;
+    text-align: center;
+    border: none;
+    color: #495057
+}
+
+.advertencia{
+    position: absolute;
+    margin-top: 470px;
+    left: 180px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    
+}
+
+.admiracion{
+    position: absolute;
+    margin-top: 472px;
+    left: 150px;
+}
+
+
+.boton1{
+    width: 328px;
+    height: 58px;
+    background: #0A3871;
+    color: white;
+    border-radius: 24px;
+    border-style: none;
+    font-size: 18px;
+    margin-inline-start: 15%;
+    margin-top: 38%;
+}
+
+.boton1:hover{
+    background: #05264f;
+}
+
+.boton2{
+    width: 328px;
+    height: 58px;
+    background: #0A3871;
+    color: white;
+    border-radius: 24px;
+    border-style: none;
+    font-size: 18px;
+    margin-left: 40px;   
+}
+
+.boton2:hover{
+    background: #05264f;
+}
+
+#copiar{
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    background: #0A3871;
+    color: white;
+    border-radius: 24px;
+    border-style: none;
+    font-size: 18px;
+    left: 1115px;
+    margin-top: -40px;
+    display: none; 
+}
+
+
+#copiar:hover{
+    background: #05264f;
+}
+
+footer{
+    position: absolute;
+    font-style: normal;
+    margin-top: 24px;
+    font-size: 14px;
+    left: 490px;
+    
+}
+
